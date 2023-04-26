@@ -1,0 +1,101 @@
+*,*::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+:root {
+    --fontColor: #282828;
+    --navBg: #d9d9d9;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 290px calc(100% - 290px);
+    color: var(--fontColor);
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.left {
+
+}
+.left .side-nav-top {
+
+}
+.left .side-nav-top .sid-images {
+
+}
+.left .side-nav-top .sid-images img {
+
+}
+.left .side-nav-top .words-top {
+
+}
+.left .side-nav-top .words-top h1 {
+
+}
+.left .side-nav-top .words-top h4 {
+
+}
+.left .side-nav-words {
+    display: flex;
+    flex-direction: column;
+}
+.left .side-nav-words a {
+    padding: 12px 16px;
+    padding-left: unset;
+    text-decoration: unset;
+    text-transform: uppercase;
+    color: unset;
+    font-weight: 600;
+}
+.left .side-nav-words a:hover {
+  color: white;
+  background-color: #574ebb;
+}
+.left .side-nav-words a span {
+
+}
+.right {
+
+}
+.right .top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--navBg);
+    padding: 8px;
+}
+
+#logout {
+  color: #de2525;
+}
+#logoutt {
+  color: #de2525;
+  font-family: "Inter", sans-serif;
+}
+
+.right .top-nav .header-images {
+
+}
+.right .top-nav .header-images img {
+
+}
+.right .top-nav .search {
+
+}
+.right .top-nav .search input {
+
+}
+.right .top-nav .notification {
+
+}
+.right .top-nav .notification span {
+
+}
